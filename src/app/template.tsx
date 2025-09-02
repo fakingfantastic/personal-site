@@ -4,8 +4,20 @@ export default function Template({children}: {children: ReactNode}) {
   return (
     <div>
       <div className="container mx-auto">
-        <div className="flex justify-between">
-          <div></div>
+        <div className="flex justify-between items-center">
+          <div className="inline-flex items-center space-x-2">
+            <div className="relative font-bold w-6 h-6">
+              <div className="leading-none absolute top-[2px] left-[4px]">
+                F
+              </div>
+              <div className="leading-none absolute top-[10px] left-[14px]">
+                L
+              </div>
+            </div>
+            <div className="text-lg border-b-2 border-black border-solid inline-block">
+              Frank Lakatos
+            </div>
+          </div>
           <div className="py-8">
             <nav>
               <ul className="flex items-center space-x-4">

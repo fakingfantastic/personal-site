@@ -1,8 +1,16 @@
 import type {Metadata} from 'next';
-import {IBM_Plex_Serif} from 'next/font/google';
+import {
+  Figtree,
+  Fira_Sans,
+  Fira_Sans_Condensed,
+  IBM_Plex_Serif,
+} from 'next/font/google';
 import './globals.css';
 
-const mainFont = IBM_Plex_Serif({weight: '300', subsets: ['latin']});
+const mainFont = Figtree({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
   title: 'Web & Mobile Application Engineer | Frank Lakatos',
