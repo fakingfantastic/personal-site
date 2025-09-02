@@ -36,7 +36,7 @@ export default function Home() {
                     <button
                       type="submit"
                       className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-5 rounded-r">
-                      Let's talk shop
+                      Let&apos;s talk shop
                     </button>
                   </form>
                   <div className="text-black text-opacity-75">
