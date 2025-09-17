@@ -6,7 +6,7 @@ import {BigTitle} from './BigTitle';
 
 export const MainGreeting = ({children}: {children?: ReactNode}) => {
   return (
-    <div className="bg-[linear-gradient(25deg,#ace0f9,#fff1eb)] pl-4 pr-4 pt-4 pb-6 md:pb-0 mt-8 md:mt-0 md:rounded-2xl">
+    <div className="bg-[linear-gradient(25deg,#ace0f9,#fff1eb)] p-8 lg:pb-0 mt-8 md:mt-0">
       <div className="lg:flex justify-center gap-8 2xl:gap-12">
         <div className="lg:pl-8 xl:pl-32 xl:pr-12">
           <Image
