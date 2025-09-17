@@ -17,16 +17,16 @@ export default function Home() {
                   <Title as="h2">A little bit about me</Title>
                 </div>
                 <p>
-                  I live in northern New Jersey with my wife and our two boys.
-                  My passion for technology started early: one of my first
+                  I live in northern New Jersey with my amazing wife and our two
+                  boys. My passion for technology started early: one of my first
                   coding projects was building a social studies quiz in BASIC.
                   Along the way, I also pursued my love of music, playing in
                   bands, studying audio engineering, and even running a small
-                  side hustle designing themed MySpace pages for friends&apos;
-                  bands. Over time, my focus turned fully toward software. I
-                  went on to earn a master&apos;s degree in computer science and
-                  have since had the privilege of working with leading software
-                  companies, digital agencies, and running my own consultancy.
+                  side hustle theming MySpace pages for friends&apos; bands.
+                  Over time, my focus turned fully toward software. I went on to
+                  earn a master&apos;s degree in computer science and have since
+                  had the privilege of working with leading software companies,
+                  digital agencies, and running my own consultancy.
                 </p>
               </Card>
             </div>
